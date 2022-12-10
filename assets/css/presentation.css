@@ -1,0 +1,13 @@
+.presentation {
+	background-color: rgb(255, 184, 92);
+	padding: 3rem;
+	display: flex;
+	justify-content: center;
+	gap: 8rem;
+}
+
+.presentation .item {
+	aspect-ratio: 1;
+	width: 20vw;
+	background-color: peachpuff;
+}

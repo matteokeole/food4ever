@@ -1,5 +1,10 @@
+@import url(presentation.css);
+
+/* dark orange d82f0c */
+/* light orange f84d2a */
+
 * {
-	margin: initial
+	margin: initial;
 }
 
 body {
@@ -9,6 +14,7 @@ body {
 .background {
 	width: 100%;
 	scale: -1 1;
+	display: block;
 }
 
 .title {
