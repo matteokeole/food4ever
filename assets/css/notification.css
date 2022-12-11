@@ -1,0 +1,35 @@
+#notif-bar {
+	background-color: var(--primary-light);
+	color: var(--white);
+	display: flex;
+	justify-content: center;
+	padding: .5rem 0;
+}
+
+#notif-bar div {
+	width: 35vw;
+	display: flex;
+	justify-content: space-between;
+	font-size: .9rem;
+	align-items: center;
+}
+
+#notif-bar button {
+	background-color: initial;
+	padding: initial;
+	border: initial;
+	color: var(--white);
+	font-size: 1.5rem;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: scale .2s;
+}
+
+#notif-bar button:hover {
+	background-color: var(--primary-dark);
+}
+
+#notif-bar button:active {
+	scale: .85;
+	background-color: var(--primary-dark);
+}

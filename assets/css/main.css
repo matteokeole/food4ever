@@ -1,13 +1,19 @@
+@import url(notification.css);
 @import url(presentation.css);
 
-/* dark orange d82f0c */
-/* light orange f84d2a */
+/* dark orange #d82f0c */
+/* light orange #f84d2a */
+:root {
+	--primary-light: #f84d2a;
+	--primary-dark: #d82f0c;
+	--white: #fff;
+}
 
 * {
 	margin: initial;
 }
 
-body {
+body, button {
 	font-family: "Montserrat";
 }
 
@@ -27,7 +33,7 @@ body {
 
 .title h1 {
 	display: inline-block;
-	color: #fff;
+	color: var(--white);
 	font-size: 6rem;
 	background-color: #00000070;
 	font-style: italic;
@@ -35,8 +41,12 @@ body {
 
 .title h2 {
 	margin-top: 2rem;
-	color: #fff;
+	color: var(--white);
 	font-size: 2rem;
 	background-color: #00000070;
 	font-style: italic;
+}
+
+ion-icon {
+	display: block;
 }
