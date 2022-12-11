@@ -4,10 +4,21 @@
 	display: flex;
 	justify-content: center;
 	padding: .5rem 0;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 2;
+	top: 0;
+}
+
+#notif-bar.closed {
+	animation: closeNotification .5s forwards;
+}
+
+@keyframes closeNotification {
+	to {
+		top: -3rem;
+	}
 }
 
 #notif-bar div {

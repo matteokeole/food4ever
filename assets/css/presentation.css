@@ -1,15 +1,13 @@
 .presentation {
-	/* background-color: rgb(255, 184, 92); */
-	padding: 3rem;
+	/* padding: 3rem; */
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 8rem;
 }
 
 .presentation .card {
 	aspect-ratio: 1;
 	width: 20vw;
-	/* background-color: peachpuff; */
 	padding: 1rem;
 	text-align: center;
 	border-radius: 8px;
