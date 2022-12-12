@@ -28,3 +28,21 @@ let eude = {
 	}
 }
 console.log(eude.faireUneCriseDAdo()) */
+
+/* const menus = [
+	{
+		id: 1,
+		name: "Colombo de poulet",
+		description: "Hmm... Un VRAI REGAL !!!",
+		price: 19.99,
+	}, {
+		id: 2,
+		name: "Samossas",
+		description: "Triangle constitué de farce",
+		price: 7.99,
+	},
+];
+
+for (let i = 0; i < menus.length; i++) {
+	console.log(`${menus[i].name} - ${menus[i].description}`);
+} */

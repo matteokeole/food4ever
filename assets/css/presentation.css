@@ -14,7 +14,7 @@
 	box-shadow: 0 8px 16px #d82f0c40;
 }
 
-.presentation .card h3 {
+.presentation .card h4 {
 	position: relative;
 	display: inline-block;
 	z-index: 0;
@@ -23,7 +23,7 @@
 	font-size: 1.4rem;
 }
 
-.presentation .card h3::before {
+.presentation .card h4::before {
 	content: "";
 	background-color: #f84d2a70;
 	bottom: 2px;

@@ -1,15 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+@import url(button.css);
+@import url(footer.css);
 @import url(notification.css);
 @import url(presentation.css);
-@import url(footer.css);
 @import url(typography.css);
 
-/* dark orange #d82f0c */
-/* light orange #f84d2a */
 :root {
 	--primary-light: #f84d2a;
 	--primary-dark: #d82f0c;
 	--white: #fff;
+	--black: #000;
 }
 
 ::selection {
@@ -26,9 +27,9 @@ body, button {
 }
 
 .background {
+	display: block;
 	width: 100%;
 	scale: -1 1;
-	display: block;
 }
 
 .title {
@@ -61,4 +62,8 @@ ion-icon {
 
 main {
 	padding: 4rem 12rem;
+}
+
+.center {
+	text-align: center;
 }

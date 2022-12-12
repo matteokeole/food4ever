@@ -35,7 +35,6 @@
 	border: initial;
 	color: var(--white);
 	font-size: 1.5rem;
-	cursor: pointer;
 	border-radius: 4px;
 	transition: scale .2s;
 }
