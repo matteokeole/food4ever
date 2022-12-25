@@ -7,10 +7,30 @@ function closeNotification() {
 	}, 500);
 }
 
+
+/* Ca c'est pas très très beau :
+function bonjour(nom) {
+	console.log("Bonjour", nom)
+}
+function f() {
+	console.log("Vous avez passé", arguments.length, "paramètres.")
+}
+f(8, 9, true, false, "pitoufeu", []) */
+
+/* Ca c'est joli :
+function renvoyerLaSomme(a,b) {
+	const somme = a + b;
+	return somme;
+}
+let test = renvoyerLaSomme(4,8)
+console.log(test) */
+
+
 // camelCase
 // PascalCase
 // snake_case
 // SCREAMING_SNAKE_CASE
+
 
 /* let test = 2;
 let chaineDeCaracteres = "Ce que tu veux. ;)";
