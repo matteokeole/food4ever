@@ -1,11 +1,30 @@
-function closeNotification() {
+/* function closeNotification() {
 	const bar = document.querySelector("#notif-bar");
 
 	bar.classList.add("closed");
 	setTimeout(function() {
 		bar.remove();
 	}, 500);
-}
+} */
+
+/* let x = 1;
+let wendy = 42.7;
+const tacos = [x, wendy, "Zut, c'est embêtant."];
+function mangerLeTacos(prix) {
+	if (prix == undefined) return console.log("Bah... Et le prix ?!");
+	console.log("Miam miam, cela m'a coûté", prix, "€.")
+} */
+
+/* let a = 2,
+	b = 3,
+	c = a + b; */
+// c += 4;
+// c++;
+// c--;
+// c /= 5;
+// c *= 3;
+// c **= 2;
+// % : modulo (reste)
 
 
 /* Ca c'est pas très très beau :
